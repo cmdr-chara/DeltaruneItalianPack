@@ -1,0 +1,29 @@
+{
+    "2.0.0": {
+        "name": "Release italiana completa",
+        "description": "- Traduzione italiana completa dei capitoli 1-4.",
+        "files": [
+            "strings.json",
+            "chapter1/strings.json",
+            "chapter1/chapter_settings.json",
+            "chapter2/strings.json",
+            "chapter2/chapter_settings.json",
+            "chapter3/strings.json",
+            "chapter3/chapter_settings.json",
+            "chapter4/strings.json",
+            "chapter4/chapter_settings.json"
+        ]
+    },
+    "1.2.0": {
+        "description": "- Modifiche al menu per il nuovo sistema di caricamento.",
+        "files": []
+    },
+    "1.1.0": {
+        "description": "- Altri aggiornamenti.",
+        "files": []
+    },
+    "1.0.1": {
+        "description": "- Alcuni aggiornamenti.",
+        "files": []
+    }
+}
