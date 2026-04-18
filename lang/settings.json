@@ -1,7 +1,7 @@
 {
     "name": "Italiano",
     "lang_code": "it",
-    "description": "Traduzione italiana di DELTARUNE, pensata per rispecchiare fedelmente la voce di Toby Fox.",
+    "description": "Traduzione italiana beta di DELTARUNE per DeltranslatePatch.",
     "link": "",
     "monospace_fonts": false,
     "special_mode": false,
