@@ -13,3 +13,8 @@ Pacchetto lingua italiano per DELTARUNE, basato su Deltranslate.
 
 Il workflow GitHub Actions crea automaticamente gli archivi `lang.zip` e `lang.7z` nella release `latest` quando cambia la cartella `lang`.
 
+## Permessi
+
+Puoi scaricare e usare il pacchetto per uso personale. Le modifiche private sono consentite, ma pubblicare, redistribuire, ricaricare o distribuire versioni modificate richiede il permesso scritto di cmdr-chara.
+
+Vedi [LICENSE.md](LICENSE.md) per i dettagli.
