@@ -1,0 +1,70 @@
+{
+    "jack_phrases": [
+        ["SEI ", "TROPPO ", "LENT", "O      "],
+        ["SEI ", "TROPPO ", "LENT", "O      "],
+        ["SEI ", "TROPPO ", "LENT", "O      "],
+        ["SEI ", "       ", "    ", "LENTO  "],
+        ["  LE", "       ", "    ", "NTO    "],
+
+        ["SEI ", "TROPPO ", "LENT", "O      "],
+        ["    ", "  SEI  ", "    ", "       "],
+        ["    ", "TROPPO ", "LENT", "O      "],
+
+        ["SEI ", "TROPPO ", "TROP", "PO     "],
+        ["    ", "       ", "TROP", "PO     "],
+        ["SEI ", "       ", "TROP", "PO     "],
+
+        ["SEI ", "TROPPO ", "LENT", "O      "],
+        ["LENT", "O      ", "LENT", "O      "],
+
+        ["SEI ", "TROP", "PO ACC."]
+    ],
+    "jack_timings": [
+        [0, 13, 27, 37],
+        [0, 13, 27, 37],
+        [0, 13, 27, 37],
+        [0, 0, 30, 30],
+        [0, 0, 5, 5],
+        [0, 13, 27, 37],
+        [50, 50, 50, 50],
+        [62, 62, 81, 88],
+        [0, 13, 27, 37],
+        [0, 0, 27, 37],
+        [0, 13, 27, 37],
+        [0, 13, 27, 37],
+        [30, 39, 53, 63],
+        [0, 23, 40]
+    ],
+    "translators_credits": [
+        [
+            {
+                "header": ["-Localizzazione giapponese-"],
+                "text_line": ["8-4, Ltd."],
+                "columns": 1
+            },
+            {
+                "header": ["-Traduttrice-"],
+                "text_line": ["Keiko Fukuichi"],
+                "columns": 1
+            }
+        ],
+        [
+            {
+                "header": ["-Produttori della localizzazione-"],
+                "text_line": ["Tina Carter", "John Ricciardi"],
+                "columns": 1
+            },
+            {
+                "header": ["-Supporto alla localizzazione-"],
+                "text_line": [
+                    "Hiroyuki Matsushita",
+                    "Yutaka Ohbuchi",
+                    "Sami Ragone",
+                    "Alissa Staples",
+                    "JP Wentz"
+                ],
+                "columns": 1
+            }
+        ]
+    ]
+}
