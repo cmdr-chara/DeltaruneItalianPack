@@ -17,7 +17,7 @@ jobs:
       contents: write
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Install 7-Zip
         run: sudo apt-get update && sudo apt-get install -y p7zip-full
@@ -40,7 +40,7 @@ jobs:
 
       - name: Get or create latest release
         id: get_release
-        uses: actions/github-script@v7
+        uses: actions/github-script@v9
         with:
           script: |
             const tagName = "latest";
@@ -70,7 +70,7 @@ jobs:
             }
 
       - name: Update release notes
-        uses: actions/github-script@v7
+        uses: actions/github-script@v9
         with:
           script: |
             const releaseId = ${{ steps.get_release.outputs.release_id }};
@@ -99,7 +99,7 @@ jobs:
             });
 
       - name: Delete old release assets
-        uses: actions/github-script@v7
+        uses: actions/github-script@v9
         with:
           script: |
             const releaseId = ${{ steps.get_release.outputs.release_id }};
