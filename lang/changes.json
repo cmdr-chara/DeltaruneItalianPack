@@ -1,7 +1,16 @@
 {
+    "5.0.0": {
+        "name": "Supporto Chapter 5",
+        "description": "- Aggiornato il supporto a DeltranslatePatch 5.0.0 e ai file data del Chapter 5.",
+        "files": [],
+        "datas": [
+            0,
+            5
+        ]
+    },
     "2.1.0": {
-        "name": "Chapter 5 beta",
-        "description": "- Aggiunta traduzione italiana beta del Chapter 5.",
+        "name": "Chapter 5",
+        "description": "- Aggiunta traduzione italiana del Chapter 5.",
         "files": [
             "chapter5/strings.json"
         ]

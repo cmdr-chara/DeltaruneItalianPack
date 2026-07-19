@@ -1,7 +1,7 @@
 {
     "name": "Italiano",
     "lang_code": "it",
-    "description": "Traduzione italiana beta di DELTARUNE per DeltranslatePatch.",
+    "description": "Traduzione italiana di DELTARUNE per DeltranslatePatch.",
     "link": "",
     "monospace_fonts": false,
     "special_mode": false,
@@ -14,6 +14,7 @@
         "https://github.com/Lazy-Desman/DeltranslatePatch/releases/download/latest/data_ch1.win",
         "https://github.com/Lazy-Desman/DeltranslatePatch/releases/download/latest/data_ch2.win",
         "https://github.com/Lazy-Desman/DeltranslatePatch/releases/download/latest/data_ch3.win",
-        "https://github.com/Lazy-Desman/DeltranslatePatch/releases/download/latest/data_ch4.win"
+        "https://github.com/Lazy-Desman/DeltranslatePatch/releases/download/latest/data_ch4.win",
+        "https://github.com/Lazy-Desman/DeltranslatePatch/releases/download/latest/data_ch5.win"
     ]
 }

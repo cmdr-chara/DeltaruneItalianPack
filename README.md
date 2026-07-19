@@ -1,6 +1,6 @@
 # Deltarune Italian Pack
 
-Pacchetto lingua italiano per DELTARUNE, basato su Deltranslate.
+Pacchetto lingua italiano per DELTARUNE, basato su DeltranslatePatch.
 
 ## Struttura
 
@@ -20,7 +20,9 @@ Questo pacchetto richiede DeltranslatePatch:
 
 1. Apri la pagina delle release di DeltranslatePatch:
    [DeltranslatePatch - Latest](https://github.com/Lazy-Desman/DeltranslatePatch/releases/tag/latest)
-2. Scarica `Deltranslate.2.3.0.zip`.
+2. Scarica `Deltranslate.5.0.0.zip`.
+   Puoi usare anche la pagina Game Jolt ufficiale:
+   [Deltranslate Project](https://gamejolt.com/games/deltranslate-project/979712)
 3. Apri la cartella di installazione di DELTARUNE.
 4. Fai un backup dei file originali che verranno sostituiti:
    - `data.win`
@@ -28,8 +30,8 @@ Questo pacchetto richiede DeltranslatePatch:
    - `chapter2_windows/data.win`
    - `chapter3_windows/data.win`
    - `chapter4_windows/data.win`
-   - `chapter5_windows/data.win`, se presente nella tua installazione/build
-5. Estrai `Deltranslate.2.3.0.zip` dentro la cartella di installazione di DELTARUNE.
+   - `chapter5_windows/data.win`
+5. Estrai `Deltranslate.5.0.0.zip` dentro la cartella di installazione di DELTARUNE.
 6. Quando Windows chiede di unire cartelle o sostituire file, conferma.
 7. Controlla che nella cartella del gioco siano presenti:
    - `data.win`
@@ -37,7 +39,7 @@ Questo pacchetto richiede DeltranslatePatch:
    - `chapter2_windows/`
    - `chapter3_windows/`
    - `chapter4_windows/`
-   - `chapter5_windows/`, se supportato dalla tua versione di DeltranslatePatch
+   - `chapter5_windows/`
    - `lang/`
 8. A questo punto DeltranslatePatch è installato.
 
@@ -46,13 +48,14 @@ Questo pacchetto richiede DeltranslatePatch:
 1. Scarica l'ultima release di questo pacchetto italiano:
    [DeltaruneItalianPack - Latest](https://github.com/cmdr-chara/DeltaruneItalianPack/releases/tag/latest)
 2. Scarica `lang.zip` oppure `lang.7z`.
-3. Estrai `lang.zip` o `lang.7z`.
-4. Apri la cartella estratta e controlla che contenga direttamente la cartella `lang`.
-5. Copia la cartella `lang` nella cartella di installazione di DELTARUNE, accanto a `data.win`.
-6. Se Windows chiede di unire o sostituire file, conferma la sostituzione.
-7. Avvia DELTARUNE normalmente.
-8. Apri il menu lingua/configurazione di Deltranslate.
-9. Seleziona l'italiano.
+3. Apri la cartella di installazione di DELTARUNE.
+4. Apri la cartella `lang`. Se non esiste, creala.
+5. Estrai il contenuto di `lang.zip` o `lang.7z` dentro `lang`.
+6. Controlla che il percorso finale sia `DELTARUNE/lang/settings.json`, non `DELTARUNE/lang/lang/settings.json`.
+7. Se Windows chiede di unire o sostituire file, conferma la sostituzione.
+8. Avvia DELTARUNE normalmente.
+9. Apri il menu lingua/configurazione di Deltranslate.
+10. Seleziona l'italiano.
 
 In breve, alla fine dovresti avere una struttura simile:
 
@@ -83,18 +86,17 @@ DELTARUNE/
 Per aggiornare manualmente il pacchetto:
 
 1. Scarica la nuova release.
-2. Estrai di nuovo `lang.zip` o `lang.7z`.
-3. Copia la nuova cartella `lang` nella cartella di installazione di DELTARUNE.
-4. Conferma l'unione o sostituzione dei file quando Windows lo chiede.
-5. Riavvia il gioco.
+2. Estrai di nuovo il contenuto di `lang.zip` o `lang.7z` dentro `DELTARUNE/lang`.
+3. Conferma l'unione o sostituzione dei file quando Windows lo chiede.
+4. Riavvia il gioco.
 
 ## Note tecniche
 
-- Questo pacchetto contiene solo i file lingua e gli asset localizzati usati da Deltranslate.
+- Questo pacchetto contiene solo i file lingua e gli asset localizzati usati da DeltranslatePatch.
 - Questo pacchetto italiano non modifica `data.win`; la modifica dei `data.win` fa parte dell'installazione di DeltranslatePatch.
 - I file `.json` devono restare validi e la struttura interna della cartella `lang` non va rinominata.
 - `settings.json` contiene i metadati del pacchetto e gli URL di aggiornamento.
-- `changes.json` viene usato dal sistema di update di Deltranslate.
+- `changes.json` viene usato dal sistema di update di DeltranslatePatch.
 - I font inclusi in `lang/fonts` servono a mostrare correttamente accenti e caratteri italiani.
 
 ## Permessi
