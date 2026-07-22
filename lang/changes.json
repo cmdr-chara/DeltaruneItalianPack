@@ -1,7 +1,17 @@
 {
+    "5.0.1": {
+        "name": "Fix updater Chapter 5",
+        "description": "- Forzato di nuovo il download dei file data per menu e Chapter 5 sulle installazioni già aggiornate a DeltranslatePatch 5.0.",
+        "files": [],
+        "datas": [
+            0,
+            5
+        ]
+    },
     "5.0.0": {
         "name": "Supporto Chapter 5",
         "description": "- Aggiornato il supporto a DeltranslatePatch 5.0.0 e ai file data del Chapter 5.",
+        "external_update": true,
         "files": [],
         "datas": [
             0,

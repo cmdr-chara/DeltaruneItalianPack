@@ -18,6 +18,8 @@ Il workflow GitHub Actions crea automaticamente gli archivi `lang.zip` e `lang.7
 Questo pacchetto richiede DeltranslatePatch:
 [Lazy-Desman/DeltranslatePatch](https://github.com/Lazy-Desman/DeltranslatePatch/)
 
+Per il Capitolo 5 serve DeltranslatePatch 5.0.0 o successivo. Se hai ancora una vecchia installazione 2.x, aggiorna prima DeltranslatePatch manualmente: l'auto-update interno non può trasformare da solo una vecchia installazione nella struttura completa del Capitolo 5.
+
 1. Apri la pagina delle release di DeltranslatePatch:
    [DeltranslatePatch - Latest](https://github.com/Lazy-Desman/DeltranslatePatch/releases/tag/latest)
 2. Scarica `Deltranslate.5.0.0.zip`.
@@ -94,6 +96,7 @@ Per aggiornare manualmente il pacchetto:
 
 - Questo pacchetto contiene solo i file lingua e gli asset localizzati usati da DeltranslatePatch.
 - Questo pacchetto italiano non modifica `data.win`; la modifica dei `data.win` fa parte dell'installazione di DeltranslatePatch.
+- L'auto-update del pacchetto lingua funziona per gli aggiornamenti della traduzione, ma il passaggio a DeltranslatePatch 5.0.0 va fatto manualmente se parti da una vecchia installazione 2.x.
 - I file `.json` devono restare validi e la struttura interna della cartella `lang` non va rinominata.
 - `settings.json` contiene i metadati del pacchetto e gli URL di aggiornamento.
 - `changes.json` viene usato dal sistema di update di DeltranslatePatch.
