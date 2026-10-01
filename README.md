@@ -11,9 +11,26 @@ Pacchetto lingua italiano per DELTARUNE, basato su DeltranslatePatch.
 
 ## Download
 
-Il workflow GitHub Actions crea automaticamente gli archivi `lang.zip` e `lang.7z` nella release `latest` quando cambia la cartella `lang`.
+Il workflow GitHub Actions crea automaticamente gli archivi `lang.zip` e `lang.7z`
+nella release `latest` quando cambia la cartella `lang`.
+Il workflow `build_installer.yml` prepara anche l'installer Windows per i tag `installer-v*`.
 
-## Installazione
+## Installer one-click per Windows
+
+Quando una release include `DeltaruneItalianInstaller.exe`, puoi usarlo per installare
+DeltranslatePatch e la traduzione italiana in un'unica procedura:
+
+1. Scarica l'eseguibile dalla [pagina delle release](https://github.com/cmdr-chara/DeltaruneItalianPack/releases).
+2. Chiudi DELTARUNE ed esegui l'installer.
+3. Seleziona la cartella di installazione di DELTARUNE e conferma i capitoli da patchare.
+4. Avvia DELTARUNE e seleziona l'italiano nel menu lingua di Deltranslate.
+
+L'installer scarica i file necessari durante l'installazione, crea i backup `.bak` dei file
+originali solo quando non esistono già e non modifica i salvataggi. Non contiene il gioco né
+i file `data.win`. Per la modalità offline e i dettagli tecnici, consulta
+[installer/README.md](installer/README.md).
+
+## Installazione manuale
 
 Questo pacchetto richiede DeltranslatePatch:
 [Lazy-Desman/DeltranslatePatch](https://github.com/Lazy-Desman/DeltranslatePatch/)
