@@ -1,4 +1,16 @@
 {
+    "5.0.2": {
+        "name": "Correzioni Chapter 5 e fix vari",
+        "description": "- Aggiunte le stringhe mancanti del Chapter 5 e chapter_settings.json.\n- Aggiunte 8 chiavi mancanti del Chapter 4 e corretti i titoli dei capitoli.\n- Ripristinati placeholder ~1 e marcatori mancanti, corretti refusi e 'Knight' uniformato a 'Cavaliere'.",
+        "files": [
+            "strings.json",
+            "chapter1/strings.json",
+            "chapter2/strings.json",
+            "chapter4/strings.json",
+            "chapter5/strings.json",
+            "chapter5/chapter_settings.json"
+        ]
+    },
     "5.0.1": {
         "name": "Fix updater Chapter 5",
         "description": "- Forzato di nuovo il download dei file data per menu e Chapter 5 sulle installazioni già aggiornate a DeltranslatePatch 5.0.",
