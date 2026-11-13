@@ -7452,7 +7452,6 @@
   "obj_minigame_quit_ui_slash_Draw_0_gml_19_1": "     : Esci",
   "obj_minigame_quit_ui_slash_Draw_0_gml_20_0": "~1 : Esci",
   "obj_dw_church_sideclimb_slash_Step_0_gml_832_0": "~1.~2",
-  "date": "1748246205643",
   "obj_darkcontroller_slash_Draw_0_gml_226_0": "？？？",
   "obj_darkcontroller_slash_Draw_0_gml_239_0": "LV1 Umano#Il corpo contiene#un'ANIMA umana.",
   "obj_darkcontroller_slash_Draw_0_gml_240_0": "LV1 Leader#Comanda il party#con varie AZIONI.",
@@ -15769,5 +15768,13 @@
   "obj_fusionmenu_slash_Step_0_gml_152_0_b": " ",
   "obj_mizzle_enemy_slash_Step_0_gml_85_0": " ",
   "obj_mike_attack_controller_slash_Step_0_gml_35_0": " ",
-  "obj_mike_minigame_controller_slash_Step_0_gml_38_0": " "
+  "obj_mike_minigame_controller_slash_Step_0_gml_38_0": " ",
+  "obj_chapter_continue_slash_Create_0_gml_1_0": "Continua al Capitolo ~1",
+  "obj_chapter_continue_slash_Create_0_gml_2_0": "Continua a giocare al Capitolo ~1",
+  "obj_dw_churchb_bookshelf_slash_Step_0_gml_100_0": "foresta ",
+  "obj_dw_churchb_bookshelf_slash_Step_0_gml_101_0": "seguita ",
+  "scr_itemdesc_single_slash_scr_itemdesc_single_gml_8_0": "Cura 40 PV. Una stella rossa e nera#che sa di marshmallow.",
+  "scr_iteminfo_slash_scr_iteminfo_gml_15_0": "Caramella Oscura",
+  "scr_iteminfo_slash_scr_iteminfo_gml_16_0": "Cura#40PV",
+  "scr_spelltext_slash_scr_spelltext_gml_68_0": "* ~1 lancia ULTRAHEAL!/%"
 }
